@@ -33,5 +33,9 @@ SOONG_CONFIG_ONEPLUS_KONA_FOD_SIZE = 232
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
+# Linwei5d
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+TARGET_KERNEL_CONFIG := maru-instantnoodlep_defconfig
+
 # inherit from the proprietary version
 -include vendor/oneplus/instantnoodlep/BoardConfigVendor.mk
