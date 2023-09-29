@@ -7,3 +7,6 @@ PRODUCT_MODEL := Maru on the instantnoodlep
 
 MARU_VERSION := 0.7-test
 MARU_BUILD_VERSION := $(MARU_VERSION)-$(shell date -u +%Y%m%d)
+
+DEVICE_PACKAGE_OVERPLAYS += \
+device/oneplus/instantnoodlep/overlay_maru/daydream
